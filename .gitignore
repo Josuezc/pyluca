@@ -1,4 +1,28 @@
-.idea
-pyluca.egg-info
-venv
-docs/_build
+# Directorios de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+bin/
+pip-log.txt
+pip-delete-this-file.txt
+.python-version
+.idea/
+
+# Directorios de Django
+/static_collected/
+/media/
+
+# Archivos de Bases de Datos
+*.sqlite3
+
+# Variables de Entorno y Secretos
+*.env
+.vscode/settings.json
+/local_settings.py
+
+# Archivos específicos de Visual Studio Code
+.vscode/
